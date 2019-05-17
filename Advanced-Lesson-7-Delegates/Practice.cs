@@ -38,7 +38,10 @@ namespace Advanced_Lesson_7_Delegates
             {
                 case "plus":
                     {
-                        operation = Plus;
+                        operation = delegate (int x1, int y1)
+                        {
+                            return x + y;
+                        };
                         break;
                     }
 
